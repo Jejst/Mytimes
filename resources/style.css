@@ -4,11 +4,13 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  border-bottom: 1px solid;
+  border: 1px solid;
 }
 
 .header span {
   display: inline-block;
+  justify-content: space-between;
+
 }
 
 
@@ -25,3 +27,82 @@
 
 
 /*Over this is the header of the site */
+
+/*This is the content of the containers*/
+.maincontainer {
+  border: 1px solid;
+  display: flex;
+  top: 10px;
+}
+
+.columnlarge {
+  width: 630px;
+  border: 2px solid;
+  margin-top: 40px;
+
+}
+
+.mother {
+  border-bottom: 1px solid;
+  padding: 0px;
+}
+.orca {
+  border: 3px solid;
+}
+
+.earth {
+  border: 2px solid;
+}
+
+.burger {
+  border: 3px solid;
+}
+
+.research {
+  margin:1px;
+}
+
+/* here is colum medium */
+.columnmedium {
+width: 300px;
+display: inline-flex;
+flex-direction: column;
+
+
+
+}
+
+.FBI {
+  border: 2px solid;
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+
+
+}
+
+.cats {
+  border: 1px solid;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.brooklyn {
+  border: 1px solid;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+/*here is last colun */
+.columnsmall {
+  width: 240px;
+}
+
+.cookie {
+  border: 1px solid;
+}
+
+.newbites {
+  border: 1px solid;
+}
