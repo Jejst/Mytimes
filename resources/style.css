@@ -1,29 +1,56 @@
 
-.header {
+
+
+header {
   display: flex;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  border: 1px solid;
 }
-
-.header span {
-  display: inline-block;
-  justify-content: space-between;
-
-}
-
 
 .logo {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  padding-left: 20px;
-  margin-bottom: 10px;
+  flex-grow: 10;
+  padding-left: 30px;
+
 }
 
-.logo h3 {
-  padding-left: 10px;
+.logo img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+
 }
+
+header nav {
+  padding-right: 40px;
+  display: block;
+
+}
+
+nav span {
+  display: inline-flex;
+  padding: 20px 10px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*Over this is the header of the site */
@@ -31,14 +58,17 @@
 /*This is the content of the containers*/
 .maincontainer {
   border: 1px solid;
-  display: flex;
-  top: 10px;
+  display: inline-flex;
+  padding-left: 300px;
+  margin-top: 10px;
+  margin-right: 650px;
 }
 
 .columnlarge {
   width: 630px;
   border: 2px solid;
   margin-top: 40px;
+  margin-left: 20px;
 
 }
 
@@ -59,7 +89,11 @@
 }
 
 .research {
-  margin:1px;
+}
+
+.nomed {
+  border: 1px solid;
+  padding: 20px;
 }
 
 /* here is colum medium */
@@ -67,42 +101,55 @@
 width: 300px;
 display: inline-flex;
 flex-direction: column;
-
-
+justify-content: flex-end;
+padding-left: 50px;
+margin-top: 40px;
 
 }
 
 .FBI {
   border: 2px solid;
-  display: inline-flex;
-  flex-direction: column;
-  position: relative;
-  justify-content: center;
-
+  align-items: stretch;
 
 }
 
 .cats {
   border: 1px solid;
-  display: inline-flex;
-  flex-direction: column;
+  align-items: stretch;
+
+
 }
 
 .brooklyn {
   border: 1px solid;
-  display: inline-flex;
-  flex-direction: column;
+  align-items: stretch;
+
+
+
 }
 
-/*here is last colun */
+/*here is last column */
 .columnsmall {
   width: 240px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-center;
+  padding-left: 50px;
+  margin-top: 70px;
+  height: 450px;
 }
 
 .cookie {
   border: 1px solid;
+  border-right: solid;
+
 }
 
 .newbites {
   border: 1px solid;
+}
+
+.no {
+  border: 1px solid;
+  padding: 102px;
 }
