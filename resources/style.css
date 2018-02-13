@@ -57,25 +57,29 @@ nav span {
 
 /*This is the content of the containers*/
 .maincontainer {
-  border: 1px solid;
+  border: 5px solid;
   display: inline-flex;
-  padding-left: 300px;
-  margin-top: 10px;
-  margin-right: 650px;
+  margin-top: 100px;
+  margin-left: 350px;
+
+
 }
+
 
 .columnlarge {
   width: 630px;
   border: 2px solid;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-left: 20px;
 
 }
 
 .mother {
   border-bottom: 1px solid;
-  padding: 0px;
+  height: 10px;
+  padding-bottom: 20px;
 }
+
 .orca {
   border: 3px solid;
 }
@@ -91,42 +95,42 @@ nav span {
 .research {
 }
 
-.nomed {
-  border: 1px solid;
-  padding: 20px;
+
 }
 
 /* here is colum medium */
 .columnmedium {
-width: 300px;
-display: inline-flex;
-flex-direction: column;
-justify-content: flex-end;
-padding-left: 50px;
-margin-top: 40px;
+  width: 300px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 50px;
+  margin-top: 40px;
 
 }
 
 .FBI {
   border: 2px solid;
-  align-items: stretch;
+
 
 }
 
 .cats {
   border: 1px solid;
-  align-items: stretch;
+
 
 
 }
 
 .brooklyn {
   border: 1px solid;
-  align-items: stretch;
-
-
 
 }
+
+
+
+
+
 
 /*here is last column */
 .columnsmall {
