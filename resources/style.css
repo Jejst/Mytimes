@@ -36,124 +36,87 @@ header nav {
 
 nav span {
   display: inline-flex;
-  padding: 20px 10px;
-
+  padding: 30px 10px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*Over this is the header of the site */
 
 /*This is the content of the containers*/
-.maincontainer {
-  border: 5px solid;
-  display: inline-flex;
-  margin-top: 100px;
-  margin-left: 350px;
+
+.content {
+  border: 1px solid;
+  display: flex;
+  padding-top: 100px;
+  justify-content: center;
 
 
 }
 
-
-.columnlarge {
-  width: 630px;
-  border: 2px solid;
-  margin-top: 20px;
-  margin-left: 20px;
-
+.large-column {
+  width: 600px;
+  border: 1px solid;
 }
 
-.mother {
-  border-bottom: 1px solid;
-  height: 10px;
-  padding-bottom: 20px;
-}
-
-.orca {
-  border: 3px solid;
-}
-
-.earth {
-  border: 2px solid;
-}
-
-.burger {
-  border: 3px solid;
-}
-
-.research {
-}
-
-
-}
-
-/* here is colum medium */
-.columnmedium {
+.medium-column {
   width: 300px;
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding-left: 50px;
-  margin-top: 40px;
-
-}
-
-.FBI {
-  border: 2px solid;
-
-
-}
-
-.cats {
   border: 1px solid;
-
+  margin-left:  40px;
+  margin-right: 40px;
 
 
 }
 
-.brooklyn {
-  border: 1px solid;
-
-}
-
-
-
-
-
-
-/*here is last column */
-.columnsmall {
+.small-column {
   width: 240px;
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: flex-center;
-  padding-left: 50px;
-  margin-top: 70px;
-  height: 450px;
-}
-
-.cookie {
   border: 1px solid;
-  border-right: solid;
 
 }
 
-.newbites {
+
+.stories {
   border: 1px solid;
 }
 
-.no {
+.story {
   border: 1px solid;
-  padding: 102px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.image-content-mother {
+  border: 1px solid;
+
+}
+
+.image-content-earth {
+  border: 1px solid
+
+}
+
+.image-content-cats {
+  border: 1px solid;
+
+}
+
+.image-content-research {
+  border: 1px solid;
+
+}
+
+.image-content-cookie {
+  border: 1px solid;
+
 }
